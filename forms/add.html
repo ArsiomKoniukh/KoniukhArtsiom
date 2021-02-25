@@ -1,0 +1,154 @@
+<!DOCTYPE html> 
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+           <title>forms</title>
+           
+    
+    </head>
+
+
+    
+<body>
+
+    <td><h1 align=center>Запоните анкету</h1>
+        <form action=http://fe.it-academy.by/TestForm.php>     
+<fieldset>
+    
+
+<form action=http://fe.it-academy.by/TestForm.php>
+        <fieldset>
+        <legend>Личные данные</legend>
+             <label>
+        <input type="text" required autofocus maxlength="25" pattern="^[А-Яа-яЁё\s]-$" placeholder="Фамилия"> <br>
+        <input type="text" required maxlength="20" pattern="^[А-Яа-яЁё\s]-$" placeholder="Имя"> <br>
+        <input type="text" required maxlength="24" pattern="^[А-Яа-яЁё\s]-$" placeholder="Отчество">
+             </label> 
+        </fieldset>
+</form>
+        <form action=http://fe.it-academy.by/TestForm.php>
+            <fieldset>
+                <legend>Паспортные данные</legend>
+            <label>
+            <input type="text" required  maxlength="4" pattern="[0-9]" placeholder="год рождения"> <br>
+            <select name="list" id="list">
+                <option value="1">Январь</option>
+                <option value="2">февраль</option>
+                <option value="3">март</option>
+                <option value="4">апрель</option>
+                <option value="5">май</option>
+                <option value="6">июнь</option>
+                <option value="7">июль</option>
+                <option value="8">август</option>
+                <option value="9">декабрь</option>
+                <option value="0" selected>Месяц</option>
+                </select><br>
+            <input type="number" required  min="1" max="31" step="1" placeholder="день"><br>
+            <select name="list" id="list1" required>
+                <option value="1">РБ</option>
+                <option value="2">РФ</option>
+                <option value="3">гб</option>
+                <option value="0" selected>национальность</option>
+                </select><br>
+                <input type="text" placeholder="адрес">
+            </label> 
+            </fieldset>
+            </form>
+   
+
+            <form action=http://fe.it-academy.by/TestForm.php>
+                <fieldset>
+                <legend>Хобби</legend>
+                     <label>
+                <input type="checkbox"> рыбалка<br>
+                <input type="checkbox"> Астрономия<br>
+                <input type="checkbox"> дайвинг<br>
+                <input type="checkbox"> Марке<br>
+                     </label> 
+                </fieldset>
+        </form>
+
+        <form action=http://fe.it-academy.by/TestForm.php>
+            <fieldset>
+            <legend>Домашние животные</legend>
+                 <label>
+           
+                    <select multiple name="list3" id="list3">
+                        <optgroup label="Попугаи">
+                              <option value="1">Ара</option>
+                              <option value="2">какаду</option>
+                              <option value="3">Волнистый</option>
+                        </optgroup>
+                        <optgroup label="Рыбы">
+                              <option value="4">Щука</option>
+                              <option value="5">Осетер</option>
+                              <option value="6">Окунь</option>
+                        </optgroup>
+                        <optgroup label="Птицы">
+                            <option value="7">Сова</option>
+                            <option value="8">ВОрон</option>
+                            <option value="9">Аист</option>
+                      </optgroup>
+                        </select>
+                 </label> 
+            </fieldset>
+    </form>
+        
+
+
+    <form action=http://fe.it-academy.by/TestForm.php>
+        <fieldset>
+        <legend>Восстановление пароля</legend>
+             <label>
+        <input type="text" required  maxlength="20" pattern="[A-Za-z]{5,}" placeholder="Логин"> <br>
+        <input type="password" autocomplete="off" required maxlength="20" pattern="[A-Za-z]{10,}-$"placeholder="Пароль"> <br>
+                </label> 
+        </fieldset>
+</form>
+
+<form action=http://fe.it-academy.by/TestForm.php>
+    <fieldset>
+    <legend>Координаты</legend>
+         <label>
+    <input type="email" formnovalidate  placeholder="почта"> <br>
+    <input type="url" formnovalidate autocomplete="off" required maxlength="20" pattern="[A-Za-z]{10,}-$"placeholder="сайт"> <br>
+            </label> 
+    </fieldset>
+</form>
+
+
+
+
+<form action=http://fe.it-academy.by/TestForm.php>
+    <fieldset>
+    <legend>Цифры</legend>
+         <label>
+    <input type="number" value="0" min="-2.5" max="2.5" step="0.1" placeholder=" номер"> <br>
+   <input type="range" min="1" max="10">
+            </label> 
+    </fieldset>
+</form>
+
+
+
+
+
+
+
+
+
+
+
+    <legend>Кнопки управления</legend>
+<label> <input type="button" value="отправить">
+    <input type="reset" value="Сбросить"><br>
+    <input type="image"  src="email.jpg">
+</label>
+
+</fieldset>
+
+        </form>
+
+</body>
+
+</html>
