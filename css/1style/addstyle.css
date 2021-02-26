@@ -1,0 +1,29 @@
+header{
+text-align: right;
+
+}
+
+h3{
+text-decoration: underline;
+font-family: 'Lobster', cursive;
+text-indent: 20px;
+}
+
+
+article{
+    font-family: 'Lobster', cursive;
+}
+
+article>p{
+    text-indent: 20px;
+}
+
+body{
+    
+    background-image: url(1.png) ;
+    background-size: 136%;
+    background-position-x: center;
+  
+    margin: 100px;
+    margin-top: 400px;
+}
