@@ -1,0 +1,33 @@
+
+
+.a{
+    background-image: url(cards.png);
+ 
+    background-repeat: no-repeat;
+    
+    width: 92px;
+    height: 207px;
+    float: left;
+    background-position: -144px -192px;
+}
+
+.b{
+    background-image: url(cards.png);
+   
+    background-repeat: no-repeat;
+    width: 92px;
+    height: 207px;
+    float: left;
+    background-position: -1px -590px;
+}
+
+
+.c{
+    background-image: url(cards.png);
+    
+    background-repeat: no-repeat;
+    width: 145px;
+    height: 207px;
+    float: left;
+    background-position: -288px -1386px;
+}
