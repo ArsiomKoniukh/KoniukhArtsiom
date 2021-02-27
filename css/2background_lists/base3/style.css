@@ -1,0 +1,25 @@
+header{
+    background-color: cadetblue;
+    width: 15em;
+   float: left;
+}
+
+#bb{
+    background-color: lawngreen;
+    background-image: url(icon_mail.png);
+    background-repeat: no-repeat;
+    background-position:100% 100%;
+}
+.a{
+
+    background-color: rgb(139, 0, 0);
+      margin-bottom: 2em; 
+  
+}
+
+
+strong{
+    background-color: gold;
+display: block;
+clear: both;
+}
